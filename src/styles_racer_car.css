@@ -1,0 +1,82 @@
+h1 {
+  text-align: center;
+  color: salmon;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: lighter;
+  font-size: 42px;
+}
+
+.startBtn {
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  width: 185px;
+  height: 50px;
+  color: aliceblue;
+  border: 2px solid rgb(43, 42, 42);
+  border-radius: 12px;
+  background-color: rgb(250, 83, 83);
+  margin: 0 auto;
+  transition: background-color ease-out 100ms;
+  display: grid;
+}
+
+.startBtn:hover {
+  background-color: #ca1c1c;
+  cursor: pointer;
+}
+
+.dashboard {
+  padding-bottom: 15px;
+  padding-top: 20px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#container {
+  position: relative;
+  text-align: center;
+  height: 750px;
+  width: 1000px;
+  background-color: #076d1f;
+  overflow: hidden;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.road {
+  position: absolute;
+  width: 350px;
+  height: 100px;
+  top: 0;
+  left: 310px;
+  text-align: center;
+  color: antiquewhite;
+  background-color: #444;
+  border-radius: 2px;
+}
+
+.road:before {
+  content: "|";
+  font-size: 20px;
+  font-weight: bold;
+  width: 2px;
+  height: 8px;
+  line-height: 60px;
+  vertical-align: top;
+  left: 50%;
+  position: absolute;
+}
+
+.playerCar {
+  position: absolute;
+  width: 130px;
+  height: 130px;
+  bottom: 90px;
+  left: 425px;
+  border-radius: 5px;
+  background-image: url(../images/player-car.png);
+  background-size: cover;
+  z-index: 100;
+}

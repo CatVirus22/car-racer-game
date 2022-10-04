@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Race Car Game</title>
+
+    <link rel="stylesheet" href="src/styles_racer_car.css" />
+  </head>
+  <body>
+    <h1>Car Racer 🏁</h1>
+
+    <div class="dashboard">
+      <span class="speedDash"></span><span class="input">/Mph</span>
+      <span class="input">| Score: </span><span class="scoreDash"></span>
+      <span class="input">| Lives: </span><span class="lifeDash"></span>
+    </div>
+    <div id="container"></div>
+    <input
+      type="button"
+      class="startBtn"
+      value="Start game"
+      onclick="disableBtn(this)"
+    />
+
+    <script src="src/index_racer_car.js"></script>
+  </body>
+</html>
