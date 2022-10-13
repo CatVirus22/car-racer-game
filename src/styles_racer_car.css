@@ -37,18 +37,18 @@ h1 {
 #container {
   position: relative;
   text-align: center;
-  height: 750px;
+  height: 700px;
   width: 1000px;
   background-color: #076d1f;
-  overflow: hidden;
-  margin: 0 auto;
+  left: 24%;
   margin-bottom: 30px;
+  overflow: hidden;
 }
 
 .road {
   position: absolute;
   width: 350px;
-  height: 100px;
+  height: 50px;
   top: 0;
   left: 310px;
   text-align: center;
@@ -59,8 +59,7 @@ h1 {
 
 .road:before {
   content: "|";
-  font-size: 20px;
-  font-weight: bold;
+  color: antiquewhite;
   width: 2px;
   height: 8px;
   line-height: 60px;
